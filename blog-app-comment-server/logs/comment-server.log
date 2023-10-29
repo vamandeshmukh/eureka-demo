@@ -1,0 +1,17 @@
+2023-10-27T11:31:40.923+05:30  INFO 20092 --- [main] b.c.BlogAppCommentServerApplicationTests : Starting BlogAppCommentServerApplicationTests using Java 17.0.7 with PID 20092 (started by NKUNDUR in C:\Users\nkundur\Documents\Work\blog-app-spring\blog-app-comment-server)
+2023-10-27T11:31:40.926+05:30  INFO 20092 --- [main] b.c.BlogAppCommentServerApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-10-27T11:31:41.852+05:30  INFO 20092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-27T11:31:41.942+05:30  INFO 20092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interfaces.
+2023-10-27T11:31:42.690+05:30  INFO 20092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-27T11:31:42.818+05:30  INFO 20092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-10-27T11:31:43.557+05:30  INFO 20092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-27T11:31:43.975+05:30  INFO 20092 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1132baa3
+2023-10-27T11:31:43.979+05:30  INFO 20092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-27T11:31:44.071+05:30  INFO 20092 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-27T11:31:45.753+05:30  INFO 20092 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-27T11:31:45.772+05:30  INFO 20092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-27T11:31:46.666+05:30  WARN 20092 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-27T11:31:47.345+05:30  INFO 20092 --- [main] b.c.BlogAppCommentServerApplicationTests : Started BlogAppCommentServerApplicationTests in 6.75 seconds (process running for 8.08)
+2023-10-27T11:31:47.788+05:30  INFO 20092 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-27T11:31:47.794+05:30  INFO 20092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-27T11:31:47.808+05:30  INFO 20092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
