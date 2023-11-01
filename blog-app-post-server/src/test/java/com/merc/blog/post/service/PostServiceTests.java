@@ -17,4 +17,8 @@ public class PostServiceTests {
 		assertEquals(postService.allPosts().size(), 2);
 	}
 
+	@Test
+	void postByIdTest() {
+		assertEquals(postService.postById(2).getId(), 2);
+	}
 }
