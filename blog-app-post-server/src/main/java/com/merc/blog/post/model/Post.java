@@ -8,21 +8,21 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table (name = "Posts")
+@Table(name = "Posts")
 public class Post {
-	
-	@Column (name = "userId")
+
+	@Column(name = "userId")
 	private Integer userId;
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column (name = "id")
+	@Column(name = "id")
 	private Integer id;
-	
-	@Column (name = "title")
+
+	@Column(name = "title")
 	private String title;
-	
-	@Column (name = "body")
+
+	@Column(name = "body")
 	private String body;
 
 	public Integer getUserId() {
@@ -56,9 +56,9 @@ public class Post {
 	public void setBody(String body) {
 		this.body = body;
 	}
-	
+
 	public Post() {
-		
+
 	}
 
 	public Post(Integer userId, Integer id, String title, String body) {
@@ -73,7 +73,5 @@ public class Post {
 	public String toString() {
 		return "Post [userId=" + userId + ", id=" + id + ", title=" + title + ", body=" + body + "]";
 	}
-	
-	
 
 }

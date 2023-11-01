@@ -18,7 +18,6 @@ public class PostService implements IPostService {
 	
 	@Override
 	public List<Post> allPosts() {
-		// TODO Auto-generated method stub
 		return postRepo.findAll();
 	}
 
@@ -37,6 +36,7 @@ public class PostService implements IPostService {
 	@Override
 	public Post addPost(Post post) {
 		// TODO Auto-generated method stub
+//		postRepo.
 		return postRepo.save(post);
 	}
 
